@@ -1,0 +1,18 @@
+# Define a function named square_num that calculates the square of a given number 'n'
+def square_num(n):
+    return n * n
+
+# Create a list named 'nums' containing integer elements
+nums = [4, 5, 2, 9]
+
+# Print the original list of numbers
+print("Original List: ", nums)
+
+# Use the map function to apply the square_num function to each element of 'nums'
+result = map(square_num, nums)
+
+# Print a message indicating the operation to be performed
+print("Square the elements of the said list using map():")
+
+# Print the result of the map operation as a list
+print(list(result))
